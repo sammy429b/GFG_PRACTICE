@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 class Leaders_in_an_array{
     //Function to find the leaders in the array.
     static ArrayList<Integer> leaders(int arr[], int n){
