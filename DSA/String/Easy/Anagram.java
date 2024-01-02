@@ -8,8 +8,7 @@ public class Anagram {
             int[] charCount = new int[26];
 
             for (int i = 0; i < s.length(); i++) {
-                charCount[s.charAt(i) - 'a']++;Move all negative elements to end
-
+                charCount[s.charAt(i) - 'a']++;
                 charCount[t.charAt(i) - 'a']--;
             }
             for (int count : charCount) {
