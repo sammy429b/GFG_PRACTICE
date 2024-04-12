@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Array_Subset_of_another_array {
     class Compute {
         // Method to check if array a2 is a subset of array a1
