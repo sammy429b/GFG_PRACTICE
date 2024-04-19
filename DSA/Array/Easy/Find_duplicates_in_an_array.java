@@ -14,7 +14,7 @@ public class Find_duplicates_in_an_array{
                result.add(arr[i]);
             }
        }
-       Set<Integer> st = new HashSet<>t(result);
+       Set<Integer> st = new HashSet<>(result);
        result.clear();
        result.addAll(st);
        Collections.sort(result);
